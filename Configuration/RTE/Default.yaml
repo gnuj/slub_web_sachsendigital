@@ -2,13 +2,13 @@ imports:
     - { resource: "EXT:rte_ckeditor/Configuration/RTE/Processing.yaml" }
     - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Base.yaml" }
     - { resource: "EXT:rte_ckeditor/Configuration/RTE/Editor/Plugins.yaml" }
+    - { resource: "EXT:slub_content_elements/Configuration/RTE/SlubContents.yaml" } # Custom configuration from the slub-content-elements extension
 
 editor:
     config:
-        contentsCss: "EXT:slub_web_sachsendigital/Resources/Public/Css/RteStyles.css"
+        contentsCss: [ "EXT:slub_web_sachsendigital/Resources/Public/Css/RteStyles.css" ]
 
         stylesSet:
-            - { name: "Normal", element: "p", attributes: { 'class': 'normal' } }
             - { name: "Hinweis", element: "p", attributes: { 'class': 'hint' } }
             - { name: "Warnung", element: "p", attributes: { 'class': 'warning' } }
             - { name: "Zitat-Quelle (nur innerhalb Zitat-Element)", element: "p", attributes: { 'class': 'cited' } }
