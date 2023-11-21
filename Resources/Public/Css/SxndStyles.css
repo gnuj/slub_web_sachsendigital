@@ -1129,7 +1129,7 @@ a.btn[target="_blank"]:after {
   color: #475a5a;
 }
 .content-wrapper p.testbox:after {
-  transform: rotate(-2deg);
+  transform: rotate(-87deg);
 }
 .content-wrapper ul {
   margin: 30px 0;

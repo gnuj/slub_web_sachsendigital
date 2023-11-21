@@ -47,7 +47,6 @@ page {
     }
     includeCSS {
         sxndCss = EXT:slub_web_sachsendigital/Resources/Public/Css/SxndStyles.css
-        sxndCss.forceOnTop = 1
         kitodo >
     }
     includeJSFooterlibs {
