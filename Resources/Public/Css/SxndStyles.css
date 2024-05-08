@@ -1440,6 +1440,26 @@ a.btn[target="_blank"]:after {
     padding: 0 200px 100px 200px;
   }
 }
+ul.slub-menubar .menu-image > a {
+  height: 100%;
+  display: block;
+}
+ul.slub-menubar .menu-image > a > img {
+  height: 100%;
+}
+@media screen and (min-width: 1024px) {
+  ul.slub-menubar {
+    margin: 0 -100px !important;
+  }
+  ul.slub-menubar li {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  ul.slub-menubar {
+    margin: 0 -200px !important;
+  }
+}
 /*
  *
  * News
